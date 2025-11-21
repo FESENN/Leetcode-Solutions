@@ -19,8 +19,8 @@ public class Solution {
                 dizi[left] = dizi[right];
                 dizi[right] = temp;
 
-                left++;     // ← BUNLAR EKSİKTİ
-                right--;    // ← EKSİK OLDUĞU İÇİN TLE GELİYORDU
+                left++;     
+                right--;    
             }
         }
         return new string(dizi);
